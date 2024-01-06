@@ -50,13 +50,12 @@ nav a{
 /* Header related style */
 .header{
     background-color: #FFF8F3;
-    /* background-image: url(../images/header_bg.png); */
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 .profile-pic{
     border-radius: 100%;
-    text-align: center;
+    align-items: center;
 }
 .banner{
     padding: 30px 30px 0px 150px;
