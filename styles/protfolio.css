@@ -9,6 +9,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav> ul{
     display: flex;
@@ -43,4 +44,18 @@ nav a{
     font-family: Open Sans;
     font-size: 40px;
     font-weight: 800;
+}
+
+/* Header related style */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic{
+    width: 500px;
 }
