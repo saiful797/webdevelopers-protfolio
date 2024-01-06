@@ -50,9 +50,13 @@ nav a{
 /* Header related style */
 .header{
     background-color: #FFF8F3;
-    background-image: url(../images/background-img.jpg);
+    background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+}
+.profile-pic{
+    border-radius: 100%;
+    text-align: center;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -137,4 +141,29 @@ main section{
     color:#474747;
     font-size: 30px;
     font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-institute, .resume-item-description{
+    color: #757575;
+    
+}
+
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-item-title{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.resume-container hr{
+    margin: 30px;
 }
