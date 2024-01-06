@@ -1,0 +1,38 @@
+/* Common Shared Style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Nave Related Style */
+
+nav{
+    display: flex;
+}
+nav> ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+
+.nav-title{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 800;
+}
